@@ -17,5 +17,16 @@
     <string name="title_activity_actividad_intent_2_2">actividad_intent_2_2</string>
     <string name="enviar_intent">ENVIAR INTENT</string>
     <string name="escribir_mensaje">Escribir mensaje</string>
+    <string name="title_activity_ciclo_dvida">CicloDeVida</string>
+    <string name="title_activity_pulsame">Pulsame</string>
+    <string name="pulsame">¡Pulsame!</string>
+    <string name="pulsameSingular">Pulsado %d vez</string>
+    <string name="pulsamePlural">Pulsado %d veces</string>
+
+    <plurals name="litPulsame">
+        <item quantity="zero">@string/pulsame</item>
+        <item quantity="one">@string/pulsameSingular</item>
+        <item quantity="other">@string/pulsamePlural</item>
+    </plurals>
 
 </resources>

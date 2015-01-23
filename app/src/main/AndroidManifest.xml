@@ -21,11 +21,13 @@
         </activity>
         <activity
             android:name=".GoogleJSON"
-            android:label="@string/title_activity_google_json" >
+            android:label="@string/title_activity_google_json"
+            android:parentActivityName=".MainActivity" >
         </activity>
         <activity
             android:name=".Actividad_Intent_1"
-            android:label=".Actividad_Intent_1" >
+            android:label=".Actividad_Intent_1"
+            android:parentActivityName=".MainActivity" >
         </activity>
         <activity
             android:name=".Actividad_Intent_1_2"
@@ -34,11 +36,23 @@
         </activity>
         <activity
             android:name=".Actividad_Intent_2"
-            android:label="@string/title_activity_actividad_intent_2" >
+            android:label="@string/title_activity_actividad_intent_2"
+            android:parentActivityName=".MainActivity" >
         </activity>
         <activity
             android:name=".Actividad_Intent_2_2"
-            android:label="@string/title_activity_actividad_intent_2_2" >
+            android:label="@string/title_activity_actividad_intent_2_2"
+            android:parentActivityName=".Actividad_Intent_2" >
+        </activity>
+        <activity
+            android:name=".CicloDeVida"
+            android:label="@string/title_activity_ciclo_dvida"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".Pulsame"
+            android:label="@string/title_activity_pulsame"
+            android:parentActivityName=".MainActivity" >
         </activity>
     </application>
 
